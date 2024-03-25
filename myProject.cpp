@@ -1,25 +1,35 @@
 #include <iostream>
 
 int main(){
-    int num1, num2, operador;
-    char operador1 = '+';
-    char operador2 = '-';
-    char operador3 = '*';
-    char operador4 = '/';
-    char operador5 = 'x';
+    int num1, num2;
+    char operador;
+    
 
     printf("digite um numero: ");
-    scanf("%d", &num1 );
+    scanf("%d", num1 );
     printf("digite um operador matematico '+ - * /': ");
-    scanf("%d", &operador);
-    printf("%c", &operador);
-    printf("%c", &operador1);
+    scanf("%c", &operador);
     
-    if(operador = operador1 ){
-        printf("entrou ");
-
-
-    }
+    printf("%d", num2);
+    
+    switch (operador)
+    {
+    case operador == '+':
+       /* code */
+        break;
+    case operador == '-':
+        /* code */
+        break;
+    case operador == '*' || operador == 'x':
+        /* code */
+        break;
+    case operador == '/':
+        /* code */
+        break;
+     default:
+        break;
+     }
+    
 
     
 
