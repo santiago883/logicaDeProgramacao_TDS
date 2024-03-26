@@ -5,11 +5,13 @@
 int main(){
     //exercicio 1
     char nome[20];
+    int idade;
 
     printf("digite seu nome: ");
     std::cin.getline(nome, 20);
-    scanf("%s", nome );
-    printf("olá seja bem vindo %s\n", nome);
+    printf("digite a dua idade ");
+    scanf("%d", &idade );
+    printf("olá seja bem vindo %s\n com %d\n anos", nome, idade);
 
 
     //exercicio 2
